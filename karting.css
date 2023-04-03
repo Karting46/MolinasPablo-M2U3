@@ -3,7 +3,10 @@ footer {
 }
 
 h1,h2 {
-    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Permanent Marker', cursive;
+}
+h1{
+    color: red;
 }
 
 p{
@@ -12,7 +15,7 @@ p{
 
 .hero {
     background: url(img/kartodromo1.jpg) no-repeat;
-    background-size: cover;
+    background-size:cover;
     height: 0.5vh;
     min-height: 600px;
     color: yellow;
@@ -24,6 +27,13 @@ p{
 
 #menu {
     margin-left: 75px;
+}
+
+a{
+    font-family: 'Permanent Marker', cursive;
+}
+#registrate{
+    color: orange;
 }
 
 .quienessomos{
@@ -38,7 +48,7 @@ p{
 
 .quienessomos li a{
     background-color: white;
-    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Permanent Marker', cursive;
     text-decoration: none;
     font-size: 1.2rem;
     color: gray;
@@ -79,4 +89,13 @@ p{
 
 #carouselExampleCaptions{
     background-color: black;
+}
+
+.espacio{
+    scroll-margin-top: 60px;
+}
+
+.mapa iframe {
+    width: 100%;
+    aspect-ratio: 1.7;
 }
